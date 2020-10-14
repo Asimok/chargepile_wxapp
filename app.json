@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/video/video",
+    "pages/entrance_guard/entrance_guard",
     "pages/login/login",
+    "pages/register/register",
     "pages/logs/logs",
     "pages/index/index"
   ],

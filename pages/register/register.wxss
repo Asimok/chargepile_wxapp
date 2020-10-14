@@ -1,0 +1,28 @@
+.out{
+  display: block;
+  /* background-color: #27AE60; */
+  height: 100%;
+}
+.header {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 50rpx;
+}
+
+.itemView{
+  display: block;
+  margin: 40rpx; 
+  font-size: 40rpx;
+}
+
+.itemView input{
+  margin-top: 20rpx; 
+  font-size: 35rpx;
+}
+
+.viewName{
+ margin-top: 100rpx;
+}

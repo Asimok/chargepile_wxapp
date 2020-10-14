@@ -1,0 +1,15 @@
+<View class="header">1D103实时画面</View>
+
+<view>
+	<video style="width: 100%;height=400px;margin:1px;" 
+  src="{{src}}" 
+  binderror="videoErrorCallback" 
+  controls='{{false}}'
+  autoplay='{{true}}'
+  show-play-btn='{{false}}' 
+  show-center-play-btn='{{false}}' 
+  enable-auto-rotation='{{true}}'
+  ></video>
+</view>
+<View class="error_status">{{status}}</View>
+

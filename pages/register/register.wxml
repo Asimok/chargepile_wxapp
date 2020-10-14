@@ -1,0 +1,26 @@
+<view class="out">
+<text class="header">欢迎注册使用</text>
+
+<view class="itemView">姓名：
+
+	<input class="input" name="userName" placeholder="请输入真实姓名" bindinput="userNameInput" />
+</view>
+
+<view class="itemView">身份证号：
+	<input class="input" name="userName" placeholder="请输入身份证号" bindinput="IDcardInput" />
+</view>
+
+<view class="itemView">手机号：
+	<input class="input" name="userName" placeholder="请输入手机号" bindinput="PhoneNumberInput" />
+</view>
+
+<view class="itemView">家庭住址：
+	<input class="input" name="userName" placeholder="请输入详细家庭住址" bindinput="AddrInput" />
+</view>
+
+
+<view class="viewName" style="background-color:#fbf9fe">
+	<button class="loginBtn" bindtap="loginBtnClick">注册</button>
+</view>
+
+</view>
